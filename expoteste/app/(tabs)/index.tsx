@@ -12,12 +12,20 @@ export default function HomeScreen() {
 
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#ff0000', dark: '#ff0000' }}
+      
       headerImage={
         <Image
           style={styles.reactLogo}
         />
+
       }>
+      <ThemedView style={styles.titleContainer}>
+
+        <ThemedText type="title">MEU SITE</ThemedText>
         
+
+      </ThemedView>
+     
     </ParallaxScrollView>
   );
 }
